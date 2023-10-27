@@ -1,1 +1,10 @@
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/axiomatic_test_task_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: x10x23057
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
