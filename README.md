@@ -1,4 +1,5 @@
 # axiomatic-test-task
+## АРМ менеджера по оформлению кредита
 
 ## ***Схема БД:***
 ![image](https://github.com/NikiTuz18/axiomatic-test-task/assets/104133517/f9e9eda8-f1c5-42e9-a86f-3030ec37d5c0)
@@ -39,3 +40,12 @@
 
 ### Поиск клиента по номеру телефона
 ![image](https://github.com/NikiTuz18/axiomatic-test-task/assets/104133517/039974cc-ca38-4b1e-b297-ca97b8eec5ad)
+
+***Built with***  
+
+<img src="https://www.clipartmax.com/png/full/354-3543373_spring-framework-logo-svg-png-download-java-spring.png" width="80" alt="Spring">
+<img src="https://www.javatpoint.com/images/hibernate/hibernate2.png" width="70" alt="Hibernate ORM"> 
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postgresql-icon.png" width="60" alt="PostgreSQL">
+<img src="https://maven.apache.org/images/maven-logo-black-on-white.png" width="120" alt="Maven Apache">
+<img src="https://www.thymeleaf.org/images/thymeleaf.png" width="70" alt="Thymeleaf">
+<img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" width="90" alt="Bootstrap">
