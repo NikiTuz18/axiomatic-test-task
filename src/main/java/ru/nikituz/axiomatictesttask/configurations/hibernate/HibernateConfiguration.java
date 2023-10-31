@@ -35,7 +35,7 @@ public class HibernateConfiguration {
     public LocalSessionFactoryBean sessionFactory() {
         final LocalSessionFactoryBean factory = new LocalSessionFactoryBean();
         factory.setDataSource(this.dataSource());
-        factory.setPackagesToScan("ru.nikituz.axiotestpractice");
+        factory.setPackagesToScan("ru.nikituz.axiomatictesttask");
         factory.setHibernateProperties(this.hibernateProperties());
         return factory;
     }
@@ -53,7 +53,7 @@ public class HibernateConfiguration {
     @Bean
     Properties hibernateProperties(){
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "update");
+        properties.setProperty("hibernate.hbm2ddl.auto", "validate");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         properties.setProperty("current_session_context_class", "thread");
         return properties;
