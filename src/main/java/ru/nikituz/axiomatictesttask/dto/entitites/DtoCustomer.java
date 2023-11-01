@@ -12,9 +12,25 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.*;
 
 import java.math.BigDecimal;
+
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.ADDRESS_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.CREDIT_AMOUNT_MIN_VALUE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.CREDIT_AMOUNT_MIN_VALUE_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.CREDIT_AMOUNT_NOT_NULL_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.CREDIT_AMOUNT_RANGE_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.EMPLOYMENT_ORGANIZATION_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.EMPLOYMENT_PERIOD_MAX_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.EMPLOYMENT_PERIOD_MIN_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.EMPLOYMENT_PERIOD_NOT_NULL_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.EMPLOYMENT_POSITION_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.FIO_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.FIO_REGEXP;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.PASSPORT_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.PASSPORT_REGEXP;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.PHONE_ERROR_MESSAGE;
+import static ru.nikituz.axiomatictesttask.utils.validation.ValidationMessageUtil.PHONE_REGEXP;
 
 @NoArgsConstructor
 @AllArgsConstructor
