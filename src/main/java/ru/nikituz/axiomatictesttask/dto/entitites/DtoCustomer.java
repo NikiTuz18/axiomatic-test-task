@@ -63,7 +63,7 @@ public class DtoCustomer {
 
     @NotNull(message = EMPLOYMENT_PERIOD_NOT_NULL_ERROR_MESSAGE)
     @Min(value = 0, message = EMPLOYMENT_PERIOD_MIN_ERROR_MESSAGE)
-    @Max(value = 100, message = EMPLOYMENT_PERIOD_MAX_ERROR_MESSAGE)
+    @Max(value = 1000, message = EMPLOYMENT_PERIOD_MAX_ERROR_MESSAGE)
     private Integer period;
 
     @NotNull(message = CREDIT_AMOUNT_NOT_NULL_ERROR_MESSAGE)

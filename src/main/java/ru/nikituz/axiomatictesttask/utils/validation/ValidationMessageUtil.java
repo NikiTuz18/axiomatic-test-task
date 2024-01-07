@@ -19,7 +19,7 @@ public class ValidationMessageUtil {
     public static final String EMPLOYMENT_POSITION_ERROR_MESSAGE = "Необходимо указать занимаемую должность";
     public static final String EMPLOYMENT_PERIOD_NOT_NULL_ERROR_MESSAGE = "Необходимо указать период работы";
     public static final String EMPLOYMENT_PERIOD_MIN_ERROR_MESSAGE = "Период работы не может быть меньше 0 месяцев";
-    public static final String EMPLOYMENT_PERIOD_MAX_ERROR_MESSAGE = "Период работы не может быть больше 100 месяцев";
+    public static final String EMPLOYMENT_PERIOD_MAX_ERROR_MESSAGE = "Период работы не может быть больше 1000 месяцев";
 
     public static final String CREDIT_AMOUNT_NOT_NULL_ERROR_MESSAGE = "Необходимо указать желаемую сумму кредита";
     public static final String CREDIT_AMOUNT_MIN_VALUE = "5000.00";
