@@ -23,19 +23,19 @@ public class RequestController {
     private final RequestService requestService;
 
     @GetMapping("/new")
-    private String newRequest(Model model){
+    public String newRequest(Model model){
         model.addAttribute("customer", new DtoCustomer());
         return "request-new";
     }
 
     @GetMapping
-    private String requests(Model model){
+    public String requests(Model model){
         model.addAttribute("requests", requestService.getAll());
         return "requests";
     }
 
     @PostMapping
-    private String createRequest(@ModelAttribute("customer") @Valid DtoCustomer dtoCustomer,
+    public String createRequest(@ModelAttribute("customer") @Valid DtoCustomer dtoCustomer,
                                  BindingResult bindingResult){
         return requestService.responseFromRequest(dtoCustomer, bindingResult);
     }
